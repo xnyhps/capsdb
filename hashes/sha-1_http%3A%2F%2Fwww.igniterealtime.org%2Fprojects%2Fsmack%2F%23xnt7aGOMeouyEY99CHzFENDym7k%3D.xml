@@ -1,13 +1,1 @@
-<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#xnt7aGOMeouyEY99CHzFENDym7k=">
-		<identity category="client" name="Xabber VIP" type="handheld"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="sslc2s"/>
-		<feature var="urn:xmpp:attention:0"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="urn:xmpp:receipts"/>
-		<feature var="urn:xmpp:time"/>
-	</query>
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#xnt7aGOMeouyEY99CHzFENDym7k="><identity category="client" name="Xabber VIP" type="handheld"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/muc"/><feature var="sslc2s"/><feature var="urn:xmpp:attention:0"/><feature var="urn:xmpp:ping"/><feature var="urn:xmpp:receipts"/><feature var="urn:xmpp:time"/></query>

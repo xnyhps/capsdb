@@ -1,14 +1,1 @@
-<?xml version="1.0" ?><query node="http://sleekxmpp.com/ver/1.2.0#Bik0RUMM9HnRtoWdtOjqBjKFgAk=">
-		<identity category="client" type="bot"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/nick"/>
-		<feature var="http://jabber.org/protocol/nick+notify"/>
-		<feature var="http://jabber.org/protocol/shim"/>
-		<feature var="http://jabber.org/protocol/shim#SubID"/>
-		<feature var="jabber:x:data"/>
-		<feature var="urn:xmpp:avatar:metadata"/>
-		<feature var="urn:xmpp:avatar:metadata+notify"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="vcard-temp"/>
-	</query>
+<?xml version="1.0" ?><query node="http://sleekxmpp.com/ver/1.2.0#Bik0RUMM9HnRtoWdtOjqBjKFgAk="><identity category="client" type="bot"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/nick"/><feature var="http://jabber.org/protocol/nick+notify"/><feature var="http://jabber.org/protocol/shim"/><feature var="http://jabber.org/protocol/shim#SubID"/><feature var="jabber:x:data"/><feature var="urn:xmpp:avatar:metadata"/><feature var="urn:xmpp:avatar:metadata+notify"/><feature var="urn:xmpp:ping"/><feature var="vcard-temp"/></query>

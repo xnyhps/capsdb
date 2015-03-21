@@ -1,7 +1,1 @@
-<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#HoZM4cBtih/SoSUWTtX5Z+fR0Kk=">
-		<identity category="client" name="ChatSecure" type="phone"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="urn:xmpp:receipts"/>
-	</query>
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#HoZM4cBtih/SoSUWTtX5Z+fR0Kk="><identity category="client" name="ChatSecure" type="phone"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/muc"/><feature var="urn:xmpp:receipts"/></query>

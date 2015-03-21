@@ -16,13 +16,12 @@ xmldoc = minidom.parse(args.file)
 clients = xmldoc.getElementsByTagName('client')
 
 def remove_blanks(node):
-	return
-    # for x in node.childNodes:
-    #     if x.nodeType == Node.TEXT_NODE:
-    #         if x.nodeValue:
-    #             x.nodeValue = x.nodeValue.strip()
-    #     elif x.nodeType == Node.ELEMENT_NODE:
-    #         remove_blanks(x)
+	for x in node.childNodes:
+		if x.nodeType == Node.TEXT_NODE:
+			if x.nodeValue:
+				x.nodeValue = x.nodeValue.strip()
+		elif x.nodeType == Node.ELEMENT_NODE:
+			remove_blanks(x)
 
 for client in clients:
 	ver = client.attributes["ver"].value

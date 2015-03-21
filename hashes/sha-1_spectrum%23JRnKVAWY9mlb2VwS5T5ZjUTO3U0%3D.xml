@@ -1,7 +1,1 @@
-<?xml version="1.0" ?><query node="spectrum#JRnKVAWY9mlb2VwS5T5ZjUTO3U0=">
-		<identity category="client" name="Spectrum Jabber Transport" type="pc"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="http://jabber.org/protocol/xhtml-im"/>
-	</query>
+<?xml version="1.0" ?><query node="spectrum#JRnKVAWY9mlb2VwS5T5ZjUTO3U0="><identity category="client" name="Spectrum Jabber Transport" type="pc"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/xhtml-im"/></query>

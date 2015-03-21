@@ -1,15 +1,1 @@
-<?xml version="1.0" ?><query node="http://conversions.siacs.eu#zGQiuCmyk94NvH86g0YBKbkJqBY=">
-		<identity category="client" name="Conversations 0.8.1" type="phone"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="jabber:x:conference"/>
-		<feature var="urn:xmpp:avatar:metadata+notify"/>
-		<feature var="urn:xmpp:chat-markers:0"/>
-		<feature var="urn:xmpp:jingle:1"/>
-		<feature var="urn:xmpp:jingle:apps:file-transfer:3"/>
-		<feature var="urn:xmpp:jingle:transports:ibb:1"/>
-		<feature var="urn:xmpp:jingle:transports:s5b:1"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="urn:xmpp:receipts"/>
-	</query>
+<?xml version="1.0" ?><query node="http://conversions.siacs.eu#zGQiuCmyk94NvH86g0YBKbkJqBY="><identity category="client" name="Conversations 0.8.1" type="phone"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/muc"/><feature var="jabber:x:conference"/><feature var="urn:xmpp:avatar:metadata+notify"/><feature var="urn:xmpp:chat-markers:0"/><feature var="urn:xmpp:jingle:1"/><feature var="urn:xmpp:jingle:apps:file-transfer:3"/><feature var="urn:xmpp:jingle:transports:ibb:1"/><feature var="urn:xmpp:jingle:transports:s5b:1"/><feature var="urn:xmpp:ping"/><feature var="urn:xmpp:receipts"/></query>

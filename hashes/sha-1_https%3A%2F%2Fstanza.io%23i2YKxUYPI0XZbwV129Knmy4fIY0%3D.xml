@@ -1,16 +1,1 @@
-<?xml version="1.0" ?><query node="https://stanza.io#i2YKxUYPI0XZbwV129Knmy4fIY0=">
-		<identity category="client" type="web"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="jabber:iq:version"/>
-		<feature var="urn:xmpp:attention:0"/>
-		<feature var="urn:xmpp:avatar:metadata+notify"/>
-		<feature var="urn:xmpp:carbons:2"/>
-		<feature var="urn:xmpp:delay"/>
-		<feature var="urn:xmpp:forward:0"/>
-		<feature var="urn:xmpp:idle:0"/>
-		<feature var="urn:xmpp:mam:tmp"/>
-		<feature var="urn:xmpp:message-correct:0"/>
-		<feature var="urn:xmpp:receipts"/>
-		<feature var="urn:xmpp:time"/>
-	</query>
+<?xml version="1.0" ?><query node="https://stanza.io#i2YKxUYPI0XZbwV129Knmy4fIY0="><identity category="client" type="web"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="jabber:iq:version"/><feature var="urn:xmpp:attention:0"/><feature var="urn:xmpp:avatar:metadata+notify"/><feature var="urn:xmpp:carbons:2"/><feature var="urn:xmpp:delay"/><feature var="urn:xmpp:forward:0"/><feature var="urn:xmpp:idle:0"/><feature var="urn:xmpp:mam:tmp"/><feature var="urn:xmpp:message-correct:0"/><feature var="urn:xmpp:receipts"/><feature var="urn:xmpp:time"/></query>

@@ -1,18 +1,1 @@
-<?xml version="1.0" ?><query node="http://bombusmod-qd.wen.ru/caps#u+yEUu6SWLeEZaNFRkEqNl6TBlw=">
-		<identity category="client" name="BombusQD" type="mobile"/>
-		<feature var="http://jabber.org/protocol/activity"/>
-		<feature var="http://jabber.org/protocol/activity+notify"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/mood"/>
-		<feature var="http://jabber.org/protocol/mood+notify"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="http://jabber.org/protocol/rosterx"/>
-		<feature var="jabber:iq:time"/>
-		<feature var="jabber:iq:version"/>
-		<feature var="jabber:x:data"/>
-		<feature var="urn:xmpp:attention:0"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="urn:xmpp:receipts"/>
-	</query>
+<?xml version="1.0" ?><query node="http://bombusmod-qd.wen.ru/caps#u+yEUu6SWLeEZaNFRkEqNl6TBlw="><identity category="client" name="BombusQD" type="mobile"/><feature var="http://jabber.org/protocol/activity"/><feature var="http://jabber.org/protocol/activity+notify"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/mood"/><feature var="http://jabber.org/protocol/mood+notify"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/rosterx"/><feature var="jabber:iq:time"/><feature var="jabber:iq:version"/><feature var="jabber:x:data"/><feature var="urn:xmpp:attention:0"/><feature var="urn:xmpp:ping"/><feature var="urn:xmpp:receipts"/></query>

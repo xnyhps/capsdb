@@ -1,14 +1,1 @@
-<?xml version="1.0" ?><query node="http://mcabber.com/caps#bC4BZ54Hnajkl0TtSpzA7QPlnMw=">
-		<identity category="client" name="mcabber 0.10.2" type="pc"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/commands"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="jabber:iq:last"/>
-		<feature var="jabber:iq:time"/>
-		<feature var="jabber:iq:version"/>
-		<feature var="jabber:x:conference"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="urn:xmpp:receipts"/>
-		<feature var="urn:xmpp:time"/>
-	</query>
+<?xml version="1.0" ?><query node="http://mcabber.com/caps#bC4BZ54Hnajkl0TtSpzA7QPlnMw="><identity category="client" name="mcabber 0.10.2" type="pc"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/muc"/><feature var="jabber:iq:last"/><feature var="jabber:iq:time"/><feature var="jabber:iq:version"/><feature var="jabber:x:conference"/><feature var="urn:xmpp:ping"/><feature var="urn:xmpp:receipts"/><feature var="urn:xmpp:time"/></query>

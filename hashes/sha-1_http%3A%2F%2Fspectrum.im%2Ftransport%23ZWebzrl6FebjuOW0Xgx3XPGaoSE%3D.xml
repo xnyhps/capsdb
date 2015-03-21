@@ -1,11 +1,1 @@
-<?xml version="1.0" ?><query node="http://spectrum.im/transport#ZWebzrl6FebjuOW0Xgx3XPGaoSE=">
-		<identity category="client" name="Spectrum" type="pc"/>
-		<feature var="http://jabber.org/protocol/bytestreams"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/commands"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="http://jabber.org/protocol/si"/>
-		<feature var="http://jabber.org/protocol/si/profile/file-transfer"/>
-	</query>
+<?xml version="1.0" ?><query node="http://spectrum.im/transport#ZWebzrl6FebjuOW0Xgx3XPGaoSE="><identity category="client" name="Spectrum" type="pc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/></query>

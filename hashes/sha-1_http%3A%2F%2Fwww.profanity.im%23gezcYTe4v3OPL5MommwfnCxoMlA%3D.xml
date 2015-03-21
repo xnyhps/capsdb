@@ -1,10 +1,1 @@
-<?xml version="1.0" ?><query node="http://www.profanity.im#gezcYTe4v3OPL5MommwfnCxoMlA=">
-		<identity category="client" name="Profanity 0.4.5dev.muc_roles.5879f49" type="console"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="jabber:iq:version"/>
-		<feature var="urn:xmpp:ping"/>
-	</query>
+<?xml version="1.0" ?><query node="http://www.profanity.im#gezcYTe4v3OPL5MommwfnCxoMlA="><identity category="client" name="Profanity 0.4.5dev.muc_roles.5879f49" type="console"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/muc"/><feature var="jabber:iq:version"/><feature var="urn:xmpp:ping"/></query>

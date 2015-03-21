@@ -1,12 +1,1 @@
-<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#xYEd+1ZdePfGl3AaJ23FB7rizRg=">
-		<identity category="client" name="Xabber" type="handheld"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/chatstates"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="http://jabber.org/protocol/muc"/>
-		<feature var="sslc2s"/>
-		<feature var="urn:xmpp:ping"/>
-		<feature var="urn:xmpp:receipts"/>
-		<feature var="urn:xmpp:time"/>
-	</query>
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#xYEd+1ZdePfGl3AaJ23FB7rizRg="><identity category="client" name="Xabber" type="handheld"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/muc"/><feature var="sslc2s"/><feature var="urn:xmpp:ping"/><feature var="urn:xmpp:receipts"/><feature var="urn:xmpp:time"/></query>

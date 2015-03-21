@@ -1,7 +1,1 @@
-<?xml version="1.0" ?><query node="http://code.matthewwild.co.uk/verse/#7ORvUCiN/oBdgu3nplJXH0UqxGQ=">
-		<identity category="client" name="Verse" type="pc"/>
-		<feature var="http://jabber.org/protocol/caps"/>
-		<feature var="http://jabber.org/protocol/disco#info"/>
-		<feature var="http://jabber.org/protocol/disco#items"/>
-		<feature var="urn:xmpp:microblog:0+notify"/>
-	</query>
+<?xml version="1.0" ?><query node="http://code.matthewwild.co.uk/verse/#7ORvUCiN/oBdgu3nplJXH0UqxGQ="><identity category="client" name="Verse" type="pc"/><feature var="http://jabber.org/protocol/caps"/><feature var="http://jabber.org/protocol/disco#info"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="urn:xmpp:microblog:0+notify"/></query>
