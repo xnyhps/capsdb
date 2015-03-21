@@ -16,3 +16,11 @@ Multiple reasons:
 ### Wait, collision attacks?
 
 [Yes, sadly it is possible to generate different caps packets that have the same hash](http://mail.jabber.org/pipermail/security/2009-July/000812.html). By pre-loading the list, it becomes impossible to carry out a collision attack against the hashes already pre-loaded.
+
+### Some of these are really old, are you sure they are still used?
+
+Sadly I have no idea. These were gathered over more than a decade, so I'm sure some are now not used anymore, but I don't have a way to check that.
+
+### Can I send pull requests with new caps?
+
+Sure!
