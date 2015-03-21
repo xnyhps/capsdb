@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><query node="http://mcabber.com/caps#7famdi6OJv+OSMkA7fmy2xJJcGo=">
+		<identity category="client" name="mcabber 0.10.3-dev" type="pc"/>
+		<feature var="http://jabber.org/protocol/activity"/>
+		<feature var="http://jabber.org/protocol/activity+notify"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/commands"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/evil"/>
+		<feature var="http://jabber.org/protocol/mood"/>
+		<feature var="http://jabber.org/protocol/mood+notify"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="http://jabber.org/protocol/tune"/>
+		<feature var="http://jabber.org/protocol/tune+notify"/>
+		<feature var="jabber:iq:last"/>
+		<feature var="jabber:iq:time"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="jabber:x:conference"/>
+		<feature var="urn:xmpp:avatar:metadata"/>
+		<feature var="urn:xmpp:avatar:metadata+notify"/>
+		<feature var="urn:xmpp:ping"/>
+		<feature var="urn:xmpp:receipts"/>
+		<feature var="urn:xmpp:time"/>
+	</query>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><query node="http://code.matthewwild.co.uk/riddim/#+etJVCdwyxeg6R3nXvaT6hC+2c8=">
+		<identity category="client" name="Riddim" type="bot"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="jabber:x:conference"/>
+	</query>

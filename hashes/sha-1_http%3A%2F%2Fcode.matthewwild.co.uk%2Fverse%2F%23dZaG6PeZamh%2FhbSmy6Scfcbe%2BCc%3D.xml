@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><query node="http://code.matthewwild.co.uk/verse/#dZaG6PeZamh/hbSmy6Scfcbe+Cc=">
+		<identity category="client" name="Verse" type="pc"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="http://jabber.org/protocol/nick+notify"/>
+	</query>

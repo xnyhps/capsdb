@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><query node="http://vacuum-im.googlecode.com#miPoEivN+zbY5xuw2U7vXb09jCM=">
+		<identity category="client" name="Vacuum IM" type="pc"/>
+		<feature var="Jid\20Escaping"/>
+		<feature var="http://jabber.org/protocol/bytestreams"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/commands"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/ibb"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="http://jabber.org/protocol/si"/>
+		<feature var="http://jabber.org/protocol/si/profile/file-transfer"/>
+		<feature var="http://jabber.org/protocol/xdata-layout"/>
+		<feature var="http://jabber.org/protocol/xdata-validate"/>
+		<feature var="jabber:iq:last"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="jabber:x:data"/>
+		<feature var="urn:xmpp:ping"/>
+		<feature var="urn:xmpp:ssn"/>
+		<feature var="urn:xmpp:time"/>
+		<x type="result" xmlns="jabber:x:data">
+<field type="hidden" var="FORM_TYPE">
+<value>urn:xmpp:dataforms:softwareinfo</value>
+</field>
+<field var="software">
+<value>Vacuum IM</value>
+</field>
+<field var="software_version">
+<value>1.0.2</value>
+</field>
+<field var="os">
+<value>Windows 7</value>
+</field>
+</x>
+	</query>

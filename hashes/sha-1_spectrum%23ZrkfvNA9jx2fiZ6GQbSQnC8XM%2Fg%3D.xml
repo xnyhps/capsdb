@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><query node="spectrum#ZrkfvNA9jx2fiZ6GQbSQnC8XM/g=">
+		<identity category="client" name="Spectrum MSN Transport" type="pc"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="http://jabber.org/protocol/xhtml-im"/>
+	</query>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?><query node="http://bombusmod.net.ru/caps#o69sTNLY4o1sI7uwnkvK1s7Dyqc=">
+		<identity category="client" name="BombusMod" type="mobile"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="http://jabber.org/protocol/rosterx"/>
+		<feature var="jabber:iq:last"/>
+		<feature var="jabber:iq:privacy"/>
+		<feature var="jabber:iq:roster"/>
+		<feature var="jabber:iq:time"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="jabber:x:oob"/>
+		<feature var="urn:xmpp:ping"/>
+		<feature var="urn:xmpp:receipts"/>
+		<feature var="urn:xmpp:time"/>
+	</query>

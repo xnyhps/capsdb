@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><query node="http://www.profanity.im#XMZkn8mzXvCxWFTy4ls9r+C+a7M=">
+		<identity category="client" name="Profanity 0.5.0dev.plugins.9d942fd" type="console"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="urn:xmpp:ping"/>
+	</query>

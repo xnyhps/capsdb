@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><query node="http://swift.im#3ScHZH4hKmksks0e7RG8B4cjaT8=">
+		<identity category="client" name="Swift" type="pc"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="urn:xmpp:jingle:1"/>
+		<feature var="urn:xmpp:jingle:apps:file-transfer:4"/>
+		<feature var="urn:xmpp:jingle:transports:ibb:1"/>
+		<feature var="urn:xmpp:jingle:transports:s5b:1"/>
+		<feature var="urn:xmpp:message-correct:0"/>
+		<feature var="urn:xmpp:receipts"/>
+		<feature var="urn:xmpp:sec-label:0"/>
+	</query>

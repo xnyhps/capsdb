@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><query node="http://swift.im#rs/tl9NCfXBpKoOYUy+JdBbPGDg=">
+		<identity category="client" name="Swift" type="pc"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="urn:xmpp:message-correct:0"/>
+		<feature var="urn:xmpp:receipts"/>
+		<feature var="urn:xmpp:sec-label:0"/>
+	</query>

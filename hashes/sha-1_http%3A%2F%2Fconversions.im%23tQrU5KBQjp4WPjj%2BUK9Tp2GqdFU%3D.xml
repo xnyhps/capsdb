@@ -1,0 +1,15 @@
+<?xml version="1.0" ?><query node="http://conversions.im#tQrU5KBQjp4WPjj+UK9Tp2GqdFU=">
+		<identity category="client" name="Conversations 1.1.0" type="phone"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/chatstates"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="jabber:x:conference"/>
+		<feature var="urn:xmpp:avatar:metadata+notify"/>
+		<feature var="urn:xmpp:jingle:1"/>
+		<feature var="urn:xmpp:jingle:apps:file-transfer:3"/>
+		<feature var="urn:xmpp:jingle:transports:ibb:1"/>
+		<feature var="urn:xmpp:jingle:transports:s5b:1"/>
+		<feature var="urn:xmpp:ping"/>
+	</query>

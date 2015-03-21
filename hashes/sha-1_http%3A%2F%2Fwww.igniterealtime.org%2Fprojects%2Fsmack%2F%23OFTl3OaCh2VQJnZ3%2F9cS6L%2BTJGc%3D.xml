@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#OFTl3OaCh2VQJnZ3/9cS6L+TJGc=">
+		<identity category="client" name="Gibberbot" type="phone"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+		<feature var="urn:xmpp:receipts"/>
+	</query>

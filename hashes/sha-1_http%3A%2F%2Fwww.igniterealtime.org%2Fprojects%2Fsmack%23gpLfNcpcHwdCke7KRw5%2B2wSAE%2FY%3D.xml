@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack#gpLfNcpcHwdCke7KRw5+2wSAE/Y=">
+		<identity category="client" name="yaxim" type="phone"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/disco#info"/>
+		<feature var="http://jabber.org/protocol/disco#items"/>
+		<feature var="jabber:iq:version"/>
+		<feature var="urn:xmpp:ping"/>
+		<feature var="urn:xmpp:receipts"/>
+	</query>

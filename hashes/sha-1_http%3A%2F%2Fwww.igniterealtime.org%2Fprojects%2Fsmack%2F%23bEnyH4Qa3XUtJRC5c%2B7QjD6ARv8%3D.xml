@@ -1,0 +1,6 @@
+<?xml version="1.0" ?><query node="http://www.igniterealtime.org/projects/smack/#bEnyH4Qa3XUtJRC5c+7QjD6ARv8=">
+		<identity category="client" name="Xabber" type="handheld"/>
+		<feature var="http://jabber.org/protocol/bytestreams"/>
+		<feature var="http://jabber.org/protocol/caps"/>
+		<feature var="http://jabber.org/protocol/muc"/>
+	</query>
