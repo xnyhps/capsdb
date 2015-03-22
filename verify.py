@@ -9,7 +9,7 @@ import base64
 from xml.sax.saxutils import escape
 import hashlib
 
-files = [ f for f in listdir("hashes/") if isfile(join("hashes",f)) ]
+files = [f for f in listdir("hashes/") if isfile(join("hashes",f))]
 
 def unwrap(x):
 	if x == None:
@@ -21,8 +21,45 @@ def fix_hash(h):
 		return "sha1"
 	return h
 
-def p(a,b):
+def compare_var(a,b):
 	return cmp(a.attributes["var"].value, b.attributes["var"].value)
+
+def get_form_type(form):
+	types = filter(lambda field: field.attributes["var"].value == "FORM_TYPE", form.getElementsByTagName("field"))
+
+
+	# If the response includes an extended service discovery information form where
+	# [...] the form does not include a FORM_TYPE field, ignore the form but continue
+	# processing.
+	if len(types) == 0:
+		return None
+
+	if len(types) > 1:
+		raise ValueError, "Multiple FORM_TYPEs on one form."
+
+	[t] = types
+
+	# If the response includes an extended service discovery information form where
+	# the FORM_TYPE field is not of type "hidden" [...] ignore the form but continue
+	# processing.
+	if t.attributes["type"].value != "hidden":
+		return None
+
+	values = t.getElementsByTagName("value")
+
+	if len(values) == 0:
+		raise ValueError, "No <value/> child of the FORM_TYPE element."
+
+	v = values[0].firstChild.nodeValue
+
+	# If [...] the FORM_TYPE field contains more than one <value/> element with different
+	# XML character data, consider the entire response to be ill-formed.
+	for value in values[1:]:
+		if value.firstChild.nodeValue != v:
+			raise ValueError, "Multiple <value/> children of the FORM_TYPE element with different character data."
+
+	return v
+
 
 for f in files:
 	try:
@@ -34,57 +71,82 @@ for f in files:
 	except ValueError:
 		continue
 
-	ver = base64.b64decode(ver)
+	try:
+		ver = base64.b64decode(ver)
 
-	dom = minidom.parse(join("hashes", f))
+		dom = minidom.parse(join("hashes", f))
 
-	s = []
+		s = []
 
-	identities = dom.getElementsByTagName("identity")
+		identities = dom.getElementsByTagName("identity")
 
-	s += sorted(map(lambda x: x.attributes["category"].value + "/"
-									+ x.attributes["type"].value + "/"
-									+ unwrap(x.attributes.get("lang", None)) + "/"
-									+ unwrap(x.attributes.get("name", None)),
-						identities))
+		identity_names = map(lambda x: x.attributes["category"].value + "/"
+										+ x.attributes["type"].value + "/"
+										+ unwrap(x.attributes.get("lang", None)) + "/"
+										+ unwrap(x.attributes.get("name", None)),
+							identities)
 
-	features = dom.getElementsByTagName("feature")
+		# If the response includes more than one service discovery identity with the
+		# same category/type/lang/name, consider the entire response to be ill-formed.
+		if len([name for name in identity_names if identity_names.count(name) > 1]) > 0:
+			raise Exception, "Duplicate identity"
 
-	s += sorted(map(lambda x: x.attributes["var"].value, features))
+		s += sorted(identity_names)
 
-	forms = dom.getElementsByTagNameNS("jabber:x:data", "x")
 
-	forms = sorted(forms, lambda form: filter(lambda field: field.attributes["var"].value == "FORM_TYPE", form.getElementsByTagName("field"))[0].getElementsByTagName("value").firstChild.nodeValue)
+		features = dom.getElementsByTagName("feature")
 
-	for form in forms:
-		fields = []
-		for field in sorted(form.getElementsByTagName("field"), p):
+		feature_names = map(lambda x: x.attributes["var"].value, features)
 
-			if field.attributes["var"].value == "FORM_TYPE":
-				s.append(field.getElementsByTagName("value")[0].firstChild.nodeValue)
-				continue
+		# If the response includes more than one service discovery feature with the same
+		# XML character data, consider the entire response to be ill-formed.
+		#
+		# There are actually 33 caps I have that fail this test, but do have a valid hash,
+		# so lets just log a warning.
+		duplcate_features = [var for var in feature_names if feature_names.count(var) > 1]
+		if len(duplcate_features) > 0:
+			print("%s: WARNING: Duplicate feature: %s" % (f, duplcate_features))
 
-			fields.append(field.attributes["var"].value)
+		s += sorted(feature_names)
 
-			for value in sorted(field.getElementsByTagName("value"), lambda a, b: a.firstChild.nodeValue > b.firstChild.nodeValue):
-				if value.firstChild:
-					fields.append(value.firstChild.nodeValue)
-				else:
-					fields.append("")
 
-		s += fields
+		forms = dom.getElementsByTagNameNS("jabber:x:data", "x")
 
-	hasher = hashlib.new(fix_hash(h))
+		forms = sorted(forms, lambda a,b: cmp(get_form_type(a), get_form_type(b)))
 
-	s = "".join(map(lambda x: escape(x).encode("utf8") + "<", s))
+		for form in forms:
+			t = get_form_type(form)
 
-	hasher.update(s)
+			if t == None: continue
 
-	if hasher.digest() == ver:
-		print("SUCCESS")
-		pass
-	else:
-		print(f)
-		print(s)
-		print(hasher.digest(), ver)
-		assert(False)
+			s.append(t)
+
+			for field in sorted(form.getElementsByTagName("field"), compare_var):
+
+				if field.attributes["var"].value == "FORM_TYPE":
+					continue
+
+				s.append(field.attributes["var"].value)
+
+				for value in sorted(field.getElementsByTagName("value"), lambda a, b: a.firstChild.nodeValue > b.firstChild.nodeValue):
+					if value.firstChild:
+						s.append(value.firstChild.nodeValue)
+					else:
+						s.append("")
+
+		hasher = hashlib.new(fix_hash(h))
+
+		s = "".join(map(lambda x: escape(x).encode("utf8") + "<", s))
+
+		hasher.update(s)
+
+		if hasher.digest() == ver:
+			print("%s SUCCESS" % f)
+			pass
+		else:
+			print(f)
+			print(s)
+			print(hasher.digest(), ver)
+			assert(False)
+	except ValueError as e:
+		print("%s failed: %s" % (f, e))
