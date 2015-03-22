@@ -1,6 +1,6 @@
 ### What is this?
 
-It is a collection of caps and their hashes, aiming to collect as many hashes that are used as possible.
+It is a collection of [XEP-0115 caps](http://xmpp.org/extensions/xep-0115.html) and their hashes, aiming to collect as many hashes that are used as possible.
 
 ### What are 'caps'?
 
@@ -19,7 +19,7 @@ Multiple reasons:
 
 ### Some of these are really old, are you sure they are still used?
 
-Sadly I have no idea. These were gathered over more than a decade, so I'm sure some are now not used anymore, but I don't have a way to check that.
+Sadly I have no idea. These were gathered over many years, so I'm sure some are now not used anymore, but I don't have a way to check that.
 
 ### Can I send pull requests with new caps?
 
