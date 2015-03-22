@@ -1,1 +1,1 @@
-<?xml version="1.0" ?><query node="http://swift.im#FyBEnnaAD+F+1bTl62sOW9q5xQs="><identity category="client" name="Swift" type="pc"/><feature var="urn:xmpp:sec-label:0"/></query>
+<?xml version="1.0" ?><query node="http://swift.im#FyBEnnaAD+F+1bTl62sOW9q5xQs=" xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Swift" type="pc"/><feature var="urn:xmpp:sec-label:0"/></query>

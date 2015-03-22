@@ -29,10 +29,21 @@ for client in clients:
 	if client.attributes.get("hash", None):
 		node = unicodedata.normalize('NFKD', client.attributes["node"].value)
 		query_doc = xml.dom.getDOMImplementation().createDocument("http://jabber.org/protocol/disco#info", "query", None)
+		query_doc.documentElement.setAttribute("xmlns", "http://jabber.org/protocol/disco#info")
 		query_doc.documentElement.attributes["node"] = node + "#" + ver
 		query_doc.documentElement.childNodes = client.childNodes
 
 		remove_blanks(query_doc.documentElement)
+
+		# Apparently Pidgin loses the xml: prefix on the lang attribute,
+		# hacking it back in.
+		for identity in query_doc.getElementsByTagName("identity"):
+			if identity.attributes.get("lang", None):
+				lang = identity.attributes["lang"].value
+				identity.removeAttribute("lang")
+				new_lang = query_doc.createAttributeNS(xml.dom.XML_NAMESPACE, "xml:lang")
+				new_lang.value = lang
+				identity.setAttributeNode(new_lang)
 
 		f = open(join("hashes", client.attributes["hash"].value + "_" + urllib.quote(node + "#" + ver, "") + ".xml"), "w")
 
