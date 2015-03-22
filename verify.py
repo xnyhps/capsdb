@@ -82,7 +82,7 @@ for f in files:
 
 		identity_names = map(lambda x: x.attributes["category"].value + "/"
 										+ x.attributes["type"].value + "/"
-										+ unwrap(x.attributes.get("lang", None)) + "/"
+										+ unwrap(x.attributes.get("xml:lang", None)) + "/"
 										+ unwrap(x.attributes.get("name", None)),
 							identities)
 
