@@ -120,9 +120,9 @@ for f in files:
 			if t == None: continue
 
 			# I have yet to see a service discovery result with a different dataform than
-			# the urn:xmpp:dataforms:softwareinfo. One of the most serious collision attacks
-			# possible with XEP-0115 is to turn features in to data forms, likely making the
-			# feature disappear. This tries to check for that.
+			# the urn:xmpp:dataforms:softwareinfo. One of the most serious preimage attacks
+			# possible with XEP-0115 is to turn features in to data forms, making some of
+			# the features disappear. This tries to check for that.
 			if t not in ["urn:xmpp:dataforms:softwareinfo"]:
 				print("%s: WARNING: Suspicious data form: %s" % (f, t))
 

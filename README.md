@@ -11,11 +11,11 @@ Each XMPP client has a number of features and advertises those features to other
 Multiple reasons:
 
 * Testing. It can be tricky to correctly implement the hash generation, it helps to have a test suite available that tests against all known clients.
-* Pre-loading. By including (some of) the caps in a client, the client can save on bandwith by not needing to perform the initial download and it is protected from collision attacks.
+* Pre-loading. By including (some of) the caps in a client, the client can save on bandwith by not needing to perform the initial download and it is protected from preimage attacks.
 
-### Wait, collision attacks?
+### Wait, preimage attacks?
 
-[Yes, sadly it is possible to generate different caps packets that have the same hash](http://mail.jabber.org/pipermail/security/2009-July/000812.html). By pre-loading the list, it becomes impossible to carry out a collision attack against the hashes already pre-loaded.
+[Yes, sadly it is possible to generate different caps packets that have the same hash](http://mail.jabber.org/pipermail/security/2009-July/000812.html). By pre-loading the list, it becomes impossible to carry out a preimage attack against the hashes already pre-loaded.
 
 ### Some of these are really old, are you sure they are still used?
 
