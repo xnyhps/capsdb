@@ -71,7 +71,7 @@ for f in files:
 	features = sorted(map(lambda feature: feature.attributes["var"].value, dom.getElementsByTagName("feature")))
 	forms = get_forms(dom.getElementsByTagNameNS("jabber:x:data", "x"))
 
-	hash_dict[ver] = { "features": features, "identities": identities, "forms": forms }
+	hash_dict[ver] = { "features": features, "identities": identities, "forms": forms, "node": node, "hash": h }
 
 f = open("db.json", "w")
 
