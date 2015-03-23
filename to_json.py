@@ -25,6 +25,36 @@ def get_identity(identity):
 
 	return ret
 
+def get_form_type(form):
+	types = filter(lambda field: field.attributes["var"].value == "FORM_TYPE", form.getElementsByTagName("field"))
+
+	return types[0].getElementsByTagName("value")[0].firstChild.nodeValue
+
+def get_forms(forms):
+	ret = dict()
+
+	for form in forms:
+		form_type = get_form_type(form)
+
+		ret[form_type] = dict()
+
+		for field in form.getElementsByTagName("field"):
+			field_name = field.attributes["var"].value
+
+			if field_name == "FORM_TYPE": continue
+
+			values = []
+
+			for value in field.getElementsByTagName("value"):
+				if value.firstChild:
+					values.append(value.firstChild.nodeValue)
+				else:
+					values.append("")
+
+			ret[form_type][field_name] = values
+
+	return ret
+
 for f in files:
 	try:
 		[h, node] = f.split(".xml")[0].split("_", 2)
@@ -39,8 +69,9 @@ for f in files:
 
 	identities = map(get_identity, dom.getElementsByTagName("identity"))
 	features = sorted(map(lambda feature: feature.attributes["var"].value, dom.getElementsByTagName("feature")))
+	forms = get_forms(dom.getElementsByTagNameNS("jabber:x:data", "x"))
 
-	hash_dict[ver] = { "features": features, "identities": identities }
+	hash_dict[ver] = { "features": features, "identities": identities, "forms": forms }
 
 f = open("db.json", "w")
 
