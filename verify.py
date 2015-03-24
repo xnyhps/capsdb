@@ -123,7 +123,7 @@ for f in files:
 			# the urn:xmpp:dataforms:softwareinfo. One of the most serious preimage attacks
 			# possible with XEP-0115 is to turn features in to data forms, making some of
 			# the features disappear. This tries to check for that.
-			if t not in ["urn:xmpp:dataforms:softwareinfo"]:
+			if t not in ["urn:xmpp:dataforms:softwareinfo", "http://jabber.org/network/serverinfo"]:
 				print("%s: WARNING: Suspicious data form: %s" % (f, t))
 
 			s.append(t)
