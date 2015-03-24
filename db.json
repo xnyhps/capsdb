@@ -1309,6 +1309,80 @@
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
  }, 
+ "/nWL9StXSXhEsL2wg0+s4xo/UdA=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "http://jabber.org/protocol/stats", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:register", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "presence", 
+   "urn:xmpp:blocking", 
+   "urn:xmpp:carbons:1", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
+ }, 
  "/oeX4jCJSqeiu9wUXeMLhEr9djE=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -8656,6 +8730,78 @@
   ], 
   "node": "http://pidgin.im/"
  }, 
+ "8P/XuMtKq0lNk50DLBC8v+TXoAU=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "http://jabber.org/protocol/stats", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:register", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "msgoffline", 
+   "presence", 
+   "presence-invisible", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
+ }, 
  "8PmOtMO9npFLsh73fhlp0Pb3vtE=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -14143,6 +14289,76 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "DksZ6FHJJWRiYER6w6zl0DGK7+Y=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:register", 
+   "jabber:iq:version", 
+   "msgoffline", 
+   "presence", 
+   "urn:xmpp:carbons:1", 
+   "urn:xmpp:carbons:2", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
  }, 
  "DlAi5QMvWJaURHZ+sR3Q0v0NUMw=": {
   "features": [
@@ -29415,6 +29631,77 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "TQ2JFyRoSa70h2G1bpgjzuXb2sU=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "http://jabber.org/protocol/stats", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:register", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "msgoffline", 
+   "presence", 
+   "presence-invisible", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
+ }, 
  "TQzeJ6dZVdtlsMCrQAXFgGXwNOY=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -35402,6 +35689,81 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "aIT+/ulfcbHXDKPkCA+iw9x5mU8=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "http://jabber.org/protocol/stats", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:register", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "msgoffline", 
+   "presence", 
+   "urn:xmpp:blocking", 
+   "urn:xmpp:carbons:1", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
  }, 
  "aJg/s1UwE9oAzTXS+r4iPusWEek=": {
   "features": [
@@ -56181,6 +56543,79 @@
    }
   ], 
   "node": "http://sleekxmpp.com/ver/1.2.5"
+ }, 
+ "yy7di5kE0syuCXOQTXNBTclpNTo=": {
+  "features": [
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/pubsub", 
+   "http://jabber.org/protocol/pubsub#access-authorize", 
+   "http://jabber.org/protocol/pubsub#access-open", 
+   "http://jabber.org/protocol/pubsub#access-presence", 
+   "http://jabber.org/protocol/pubsub#access-whitelist", 
+   "http://jabber.org/protocol/pubsub#auto-create", 
+   "http://jabber.org/protocol/pubsub#auto-subscribe", 
+   "http://jabber.org/protocol/pubsub#collections", 
+   "http://jabber.org/protocol/pubsub#config-node", 
+   "http://jabber.org/protocol/pubsub#create-and-configure", 
+   "http://jabber.org/protocol/pubsub#create-nodes", 
+   "http://jabber.org/protocol/pubsub#delete-items", 
+   "http://jabber.org/protocol/pubsub#delete-nodes", 
+   "http://jabber.org/protocol/pubsub#filtered-notifications", 
+   "http://jabber.org/protocol/pubsub#get-pending", 
+   "http://jabber.org/protocol/pubsub#instant-nodes", 
+   "http://jabber.org/protocol/pubsub#item-ids", 
+   "http://jabber.org/protocol/pubsub#last-published", 
+   "http://jabber.org/protocol/pubsub#manage-subscriptions", 
+   "http://jabber.org/protocol/pubsub#member-affiliation", 
+   "http://jabber.org/protocol/pubsub#modify-affiliations", 
+   "http://jabber.org/protocol/pubsub#multi-subscribe", 
+   "http://jabber.org/protocol/pubsub#outcast-affiliation", 
+   "http://jabber.org/protocol/pubsub#persistent-items", 
+   "http://jabber.org/protocol/pubsub#presence-notifications", 
+   "http://jabber.org/protocol/pubsub#presence-subscribe", 
+   "http://jabber.org/protocol/pubsub#publish", 
+   "http://jabber.org/protocol/pubsub#publisher-affiliation", 
+   "http://jabber.org/protocol/pubsub#purge-nodes", 
+   "http://jabber.org/protocol/pubsub#retract-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-affiliations", 
+   "http://jabber.org/protocol/pubsub#retrieve-default", 
+   "http://jabber.org/protocol/pubsub#retrieve-items", 
+   "http://jabber.org/protocol/pubsub#retrieve-subscriptions", 
+   "http://jabber.org/protocol/pubsub#subscribe", 
+   "http://jabber.org/protocol/pubsub#subscription-notifications", 
+   "http://jabber.org/protocol/pubsub#subscription-options", 
+   "http://jabber.org/protocol/stats", 
+   "iq", 
+   "jabber:iq:last", 
+   "jabber:iq:register", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "msgoffline", 
+   "presence", 
+   "presence-invisible", 
+   "urn:xmpp:blocking", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {
+   "http://jabber.org/network/serverinfo": {}
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "pubsub", 
+    "type": "pep"
+   }, 
+   {
+    "category": "server", 
+    "name": "ejabberd", 
+    "type": "im"
+   }
+  ], 
+  "node": "http://www.process-one.net/en/ejabberd/"
  }, 
  "z+slbJTsPH3751RwqDgF2nxcEBA=": {
   "features": [
