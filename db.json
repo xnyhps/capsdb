@@ -33532,6 +33532,66 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "XqL697iwbpXTPYPbOVrgQtNIR+c=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1-fossil-20150324 (Tcl/Tk 8.6.1)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "XtgdCf4ZFUB4o8peUkhpYXRMyoc=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -36950,6 +37010,66 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "ba+lHsrfF2Nuexhas8GdZdafLro=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1-fossil-20150325 (Tcl/Tk 8.6.1)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "bbbtKxZWa7JK2Wz3lJHP/bny4kM=": {
   "features": [
