@@ -1,4 +1,32 @@
 {
+ "+/de5LZVvR50TrFHScAThlgqLxA=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.1", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "+0mnUAF1ozCEc37cmdPPsYbsfhg=": {
   "features": [
    "games:board", 
@@ -104,6 +132,27 @@
    }
   ], 
   "node": "http://pidgin.im/"
+ }, 
+ "+BVk/Scsp3BCCN/VNlQCIfbzUjw=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.7151792", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "+EwpK+k7yBl97i1/5jaisu7JJjk=": {
   "features": [
@@ -2820,6 +2869,34 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "13LImY078eZEKZR0VHsUkhgo5sI=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.6", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "1475TjmpredYj/2BU8tFHS3P2ro=": {
   "features": [
    "games:board", 
@@ -2867,6 +2944,63 @@
     ], 
     "software_version": [
      "1.1-svn-20140227 (Tcl/Tk 8.5.11)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "1AyQVf4nqeK8nasO0z6mDpWAhng=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150514 (Tcl/Tk 8.6.2)"
     ]
    }
   }, 
@@ -2984,6 +3118,27 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "1OlpIEL8YCLrH9o83XRpGm7gwMk=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.86acd46", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "1RsmhQD7CXz0TuytinljsuOTrVU=": {
   "features": [
@@ -3673,6 +3828,32 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "24SdtQdyecT+6P0Zm4IxBh6gfQs=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/rsm", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Hg10 1.4.1.186", 
+    "type": "pc"
+   }
+  ], 
+  "node": "https://github.com/qxmpp-project/qxmpp"
  }, 
  "25z9UuL0Yttx3reA57krZNigXPU=": {
   "features": [
@@ -4822,6 +5003,34 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "37CqyX7WnyiLbnfHw6ws/eRHXt4=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.2", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "38owWqKl/YDbMN7nu4JDsV/uwB8=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -4898,6 +5107,35 @@
   ], 
   "node": "https://jappix.org/"
  }, 
+ "3A+gSNljZYzNTSmFfS/fgoZ0wGY=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.4", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "3BSDbrMtmD5HSq0LZFZ1X6utlDs=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -4955,6 +5193,38 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "3EHFUpD/e1zyZyr5mkC+SjiyI0w=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:last", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 0.10.4-dev", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
  }, 
  "3Erdto7cE+Ty/cSWkk+f2ijjYcI=": {
   "features": [
@@ -6294,6 +6564,36 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "5RaJnash/kRwCCrjfA3wd/L5/KM=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:last", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 1.0.1-dev", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
+ }, 
  "5RdED9JmJ4UvzOG0L2M0rMuMQ24=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -6363,6 +6663,66 @@
     ], 
     "software_version": [
      "1.1-svn-20140227 (Tcl/Tk 8.6.0)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "5U6Zd+hxHgQ4NxThPrXQtM+u6lo=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150602 (Tcl/Tk 8.6.4)"
     ]
    }
   }, 
@@ -7073,6 +7433,34 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "6CZ3yDWwXidQOMgChtIaKINXc3o=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.3", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "6DivePuepyGU5jOJP8Q7cMBD7N0=": {
   "features": [
    "http://jabber.org/protocol/chatstates", 
@@ -7640,6 +8028,27 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "6jb/zj3asaYmMcIAz4oklCtQvwo=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.82ff85c", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "6ld0bKdaWHaU+Nl2XRCZPr78fxE=": {
   "features": [
    "games:board", 
@@ -7701,6 +8110,75 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "6ougWeAWGEmyIYE5gA/MUccZr+U=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/muc#admin", 
+   "http://jabber.org/protocol/muc#owner", 
+   "http://jabber.org/protocol/muc#roomconfig", 
+   "http://jabber.org/protocol/muc#user", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "ipv6", 
+   "jabber:iq:gateway", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:private", 
+   "jabber:iq:register", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:encrypted", 
+   "msglog", 
+   "sslc2s", 
+   "stringprep", 
+   "urn:xmpp:hash-function-textual-names:md5", 
+   "urn:xmpp:hash-function-textual-names:sha-1", 
+   "urn:xmpp:hash-function-textual-names:sha-256", 
+   "urn:xmpp:hash-function-textual-names:sha-512", 
+   "urn:xmpp:hashes:1", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:apps:rtp:1", 
+   "urn:xmpp:jingle:apps:rtp:audio", 
+   "urn:xmpp:jingle:apps:rtp:video", 
+   "urn:xmpp:jingle:security:xtls:0", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:ice-udp:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:sec-label:0", 
+   "urn:xmpp:ssn", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Gajim", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://gajim.org"
  }, 
  "6tYrk6PN0oTW+BW6qFh7QvAsGKc=": {
   "features": [
@@ -9125,6 +9603,66 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "8E36xYFw6Y6WJzKpVSN1JkDO834=": {
+  "features": [
+   "games:board", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux testing (stretch) testing stretch"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150602 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "8HF54uCryZnrbDm/KTZMuMddEWA=": {
   "features": [
    "games:board", 
@@ -9245,6 +9783,35 @@
    }
   ], 
   "node": "http://pidgin.im/"
+ }, 
+ "8LEQ1crennfed3Gk0qBQUv3se6Y=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.7", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "8P/XuMtKq0lNk50DLBC8v+TXoAU=": {
   "features": [
@@ -9462,6 +10029,79 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "8Ygq636zb32iAylE+h0CmR2IYuM=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/games", 
+   "http://jabber.org/protocol/games/tictactoe", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/muc#admin", 
+   "http://jabber.org/protocol/muc#owner", 
+   "http://jabber.org/protocol/muc#roomconfig", 
+   "http://jabber.org/protocol/muc#user", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "ipv6", 
+   "jabber:iq:gateway", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:private", 
+   "jabber:iq:register", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:encrypted", 
+   "msglog", 
+   "sslc2s", 
+   "stringprep", 
+   "urn:xmpp:hash-function-textual-names:md5", 
+   "urn:xmpp:hash-function-textual-names:sha-1", 
+   "urn:xmpp:hash-function-textual-names:sha-256", 
+   "urn:xmpp:hash-function-textual-names:sha-512", 
+   "urn:xmpp:hashes:1", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:apps:rtp:1", 
+   "urn:xmpp:jingle:apps:rtp:audio", 
+   "urn:xmpp:jingle:apps:rtp:video", 
+   "urn:xmpp:jingle:security:xtls:0", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:ice-udp:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:sec-label:0", 
+   "urn:xmpp:ssn", 
+   "urn:xmpp:sxe:0", 
+   "urn:xmpp:time", 
+   "urn:xmpp:tmp:jingle:transports:sxe"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Gajim", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://gajim.org"
  }, 
  "8mEBEhhK4D0/LQpT2x/Pcd5ddoY=": {
   "features": [
@@ -9894,6 +10534,35 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "9R/Jarra/zM+T7kTnrhRSncmcCQ=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.0", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "9Sb9dOz8vECKC1dPnw5lXls7dSI=": {
   "features": [
    "games:board", 
@@ -10300,6 +10969,62 @@
   ], 
   "node": "http://mcabber.com/caps"
  }, 
+ "9ZtWOT0gknkYrWpnWYCQoDyalZM=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.1 (jessie) 8.1 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150710 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "9aaL/5HEQNQKMV7+hBL1lypVgxw=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -10642,6 +11367,63 @@
   ], 
   "node": "http://mcabber.com/caps"
  }, 
+ "9yHwK2pf9LkfLG/353AQ22Yfdx4=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150512 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "A1Mj3vigUZm+SefEaz9lf76SEMs=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -10857,6 +11639,68 @@
    }
   ], 
   "node": "http://www.eyecu.ru"
+ }, 
+ "A902tA7BoHENVa4RcukC1oe9FUo=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/muc#admin", 
+   "http://jabber.org/protocol/muc#owner", 
+   "http://jabber.org/protocol/muc#roomconfig", 
+   "http://jabber.org/protocol/muc#user", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "ipv6", 
+   "jabber:iq:gateway", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:private", 
+   "jabber:iq:register", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:encrypted", 
+   "msglog", 
+   "sslc2s", 
+   "stringprep", 
+   "urn:xmpp:hash-function-textual-names:md5", 
+   "urn:xmpp:hash-function-textual-names:sha-1", 
+   "urn:xmpp:hash-function-textual-names:sha-256", 
+   "urn:xmpp:hash-function-textual-names:sha-512", 
+   "urn:xmpp:hashes:1", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:security:xtls:0", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:sec-label:0", 
+   "urn:xmpp:ssn", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Gajim", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://gajim.org"
  }, 
  "A9Ficb+vagnspYdWH+fGkw+9cZg=": {
   "features": [
@@ -12594,6 +13438,124 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "BUvN16tELoCJtLhEBkY4PpxWy8U=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150618 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "BXGhfLw5Q/SLtPzmEFK0IUAcEDc=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150517 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "BZ32ig2a09kKm8JOXp/8lWdWSfc=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -12640,6 +13602,62 @@
     ], 
     "software_version": [
      "0.11.1 (Tcl/Tk 8.5.5 (pack rev.1))"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "BaypCcK3lZKqlYzwOHP4zL7teuY=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.1 (jessie) 8.1 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150810 (Tcl/Tk 8.6.2)"
     ]
    }
   }, 
@@ -13730,6 +14748,63 @@
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
  }, 
+ "CGtCw2AYwIKjWk/uerLrUe5QQMw=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150524 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "CO0GG0NUhCQ1BiZOqRDQ8WOYXNs=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -13780,6 +14855,27 @@
    }
   ], 
   "node": "http://klub54.wen.ru/caps"
+ }, 
+ "CUT70npFb/ZKiq0DCsyXXzJ3L5s=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.5.0dev.plugins.62a5e58", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "CWMHd9Cp+4L0Ey35xDWw1t5WXl8=": {
   "features": [
@@ -13965,6 +15061,67 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "Ch6Q4LCkWnDSRcXYNBftGsq/wJI=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150518 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "Chg+GO0aPAHg4K+Fmpiay3WKgm4=": {
   "features": [
@@ -14874,6 +16031,27 @@
   ], 
   "node": "http://mcabber.com/caps"
  }, 
+ "DVJ/5zoJuK60tQVkxBzUJdTo8Bc=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.f0f3a73", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "DdRAyN2JbJ187nKLv1MyC82cFl0=": {
   "features": [
    "games:board", 
@@ -15448,6 +16626,91 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "DsnrCoT/i6SAzRGuss9BCUiAbK0=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150602 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "DtPmgL/wRXvH+xLx4qbw6gSTP40=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.0", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "E/4u65ftmkoEel2LbiWOyFqiMo8=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -15659,6 +16922,34 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "EAu7+OsQqC9seZY0qBROZbbfmOU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.0-alpha", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "EPo5rclrpZCFjClyu4NVywBQEV0=": {
   "features": [
@@ -15966,6 +17257,66 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "Er6QlczT4htmk0WP0PhlT/bon0U=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150618 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "Eu3CzJOdLHeV10KTajB0I8cvJWI=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -16144,6 +17495,27 @@
    {
     "category": "client", 
     "name": "Profanity 0.4.6dev.master.e756daf", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
+ "F1W+CLfTsCgtk9BISTL7bH3YEYU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.dea10ec", 
     "type": "console"
    }
   ], 
@@ -16640,6 +18012,62 @@
     "category": "client", 
     "lang": "ru", 
     "name": "\u0422\u043a\u0430\u0431\u0431\u0435\u0440", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "FKIeZtT7+yfoi8MlV6XKCULwSXI=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "2000"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-20150510 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
     "type": "pc"
    }
   ], 
@@ -17537,6 +18965,63 @@
   ], 
   "node": "http://slixmpp.com/ver/1.3.1"
  }, 
+ "FxzK97XnsSgAhn20QSPb8BoO/6g=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150511 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "FyBEnnaAD+F+1bTl62sOW9q5xQs=": {
   "features": [
    "urn:xmpp:sec-label:0"
@@ -18089,6 +19574,67 @@
   ], 
   "node": "http://bombusmod.net.ru/caps"
  }, 
+ "GUvEIIFFjNQm/hXyUMotudFMGT4=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150514 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "GV9BLwQcJy5HLWn5UDQ5vkottIc=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -18510,6 +20056,31 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "GyIX/Kpa4ScVmsZCxRBboJlLAYU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "sslc2s", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Xabber", 
+    "type": "handheld"
+   }
+  ], 
+  "node": "http://www.igniterealtime.org/projects/smack/"
  }, 
  "H/tBfNdBBCHGwux3T1Ea3GoVo04=": {
   "features": [
@@ -19374,6 +20945,66 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "II2gmQ3b5OzN7LC6ynNvpR+d10I=": {
+  "features": [
+   "games:board", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux testing (stretch) testing stretch"
+    ], 
+    "os_version": [
+     "4.0.0-2-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150710 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "ILZReUNfkCzkeUMaYgGDfJQe8EI=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -19589,6 +21220,67 @@
   ], 
   "node": "http://www.igniterealtime.org/projects/smack/"
  }, 
+ "IUpftcnrliF5z1dkMazITqtwefQ=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150602 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "IZQyaVhgk3f8TIcQNB49gWq3ziU=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -19666,6 +21358,31 @@
    }
   ], 
   "node": "http://acid.jabberid.org/caps/caps"
+ }, 
+ "IdTZ5pzuXHc5NubUUKGg3pzx6j8=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 1.0.1-dev", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
  }, 
  "Iesf0AZR+Iqk001RtJUaLCVca3s=": {
   "features": [
@@ -20252,6 +21969,66 @@
   ], 
   "node": "http://moxl.movim.eu/"
  }, 
+ "JC5LSSbB0IELmbp6RZc+J+RoDHA=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows NT"
+    ], 
+    "os_version": [
+     "10.0"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-20150510 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "JIB80PS3mwsUlVSCwgg0TGZklvA=": {
   "features": [
    "games:board", 
@@ -20366,6 +22143,67 @@
    }
   ], 
   "node": "http://pidgin.im/"
+ }, 
+ "JUlGs5jk9FW49uEG07E0AiKDI/4=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150524 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "JWSNKbhnwFatKU1xvISTgSAl66I=": {
   "features": [
@@ -21526,6 +23364,67 @@
   ], 
   "node": "http://code.matthewwild.co.uk/verse/"
  }, 
+ "L1072M/FOCQyXOong/u2HhhB5Ek=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150529 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "L4ERoaRhNSR0Rk4EaEvHPoLMBeI=": {
   "features": [
    "games:board", 
@@ -21585,6 +23484,27 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "L6iJsdnRrOBw4yOGYZlx2E+psHk=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.10eb0bb", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "L7YzWszY6WCGjSD7Z41q8zGM7oc=": {
   "features": [
@@ -22257,6 +24177,67 @@
    }
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
+ }, 
+ "LjFOMRNlYVmSwD1RrG6mYBVberE=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.1 (jessie) 8.1 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150602 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "LmxFPVfMZgNlmq+gG8uT2QoaaYs=": {
   "features": [
@@ -23673,6 +25654,27 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "Mkyq+szpucEuDBFJMqfxaOUlfYM=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.d7ec339", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "MmMONTlUuepLLKZgrLiVAGyG7tQ=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -24316,6 +26318,22 @@
   ], 
   "node": "http://jitsi.org"
  }, 
+ "NCO7tV1842UAS1UAlOrYRTLCA84=": {
+  "features": [
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Swift", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://swift.im"
+ }, 
  "NELOaXb0H858AOJmfwmQmx8UZ28=": {
   "features": [
    "http://google.com/xmpp/protocol/share/v1", 
@@ -24848,6 +26866,27 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "No8Vn7tA5lj8du5IsuxyG64mlOU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.adae6bb", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "NpTkwLpNEOZtdJHIobrrU8yQeVE=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -25335,7 +27374,7 @@
     "type": "mobile"
    }
   ], 
-  "node": "http://klub54.wen.ru/caps"
+  "node": "http://talkonaut.com/caps"
  }, 
  "OFpux5pbaqhf1/cDdKYlc2Pp5Y0=": {
   "features": [
@@ -26274,6 +28313,27 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "OvwVKwar13Va7k+VO+8XD7dFY4U=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.2af5c15", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "OxteTqOxUoswEBfGrwHTkffkUbU=": {
   "features": [
    "games:board", 
@@ -26549,6 +28609,65 @@
    }
   ], 
   "node": "http://pidgin.im/"
+ }, 
+ "P6rxE/XU9MgYowT/qGCXtNDUZy0=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "http://www.xmpp.org/extensions/xep-0084.html#ns-metadata+notify", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "plugins:alarm", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Linux Mint 17.1 Rebecca 17.1 rebecca"
+    ], 
+    "os_version": [
+     "3.13.0-37-generic"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150524 (Tcl/Tk 8.6.1)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "P7+TjkoPCGYQSll7mf30LLC3NiQ=": {
   "features": [
@@ -28371,6 +30490,38 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "QZJY34oLDbHiUeXHr7aSWArtYxA=": {
+  "features": [
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Ronahi_Android", 
+    "type": "mobile"
+   }
+  ], 
+  "node": "http://drokoroz.ru/caps"
+ }, 
  "QaR2dtqgUnen2IED3n4wMxypaSQ=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -28631,6 +30782,27 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "R1mHvkwlc/zlVZ3UH5rjAJmZbC8=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.help.41c93c3", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "R21AJemVL9YgJjSERziF3ekpokg=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -28806,6 +30978,27 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "R983v/jRSsW/BE378JI9y+oBMRA=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.f9a7e35", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "R9UmbqHoJP+gSo7KAFGnuVU21s0=": {
   "features": [
@@ -29553,6 +31746,62 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "S/qcetnyulx8zjkFgJ7bIousPuo=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-20150510 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "S2VdrN9pONsOdpJjmNTSv53Shjk=": {
   "features": [
@@ -32005,6 +34254,41 @@
   ], 
   "node": "http://jitsi.org"
  }, 
+ "U4giJ3KF3e621GhgMjiTpwyyMys=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "BombusKlub", 
+    "type": "mobile"
+   }
+  ], 
+  "node": "http://klub54.wen.ru/caps"
+ }, 
  "U61Q1v/TKcS3KS4bVhw7SMLCdPw=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -32883,6 +35167,32 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "Ufx4/7uwW6XfK2ZEUV8TT/rDRKU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "sslc2s", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Xabber", 
+    "type": "handheld"
+   }
+  ], 
+  "node": "http://www.igniterealtime.org/projects/smack/"
+ }, 
  "UkHVs2Q//x+Mrr5lTp8RL5hG7Qo=": {
   "features": [
    "games:board", 
@@ -33116,6 +35426,35 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "Uw3ikOr0vhiy317qiuCp0XRMLl4=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.0-alpha", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "UwNaWcZxxfcK2fxuze3moIkzA9s=": {
   "features": [
@@ -34021,6 +36360,45 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "VYC4qPXXJ8d4PTmjjVX5McuWZ+A=": {
+  "features": [
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/muc#user", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:bob", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Pidgin", 
+    "type": "pc"
+   }
+  ], 
+  "node": "https://pidgin.im/"
+ }, 
  "VeL8ITmAovR+z+Ok1SQXeMAKc2A=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -34037,6 +36415,27 @@
    {
     "category": "client", 
     "name": "Profanity 0.4.5dev.master.ef62104", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
+ "ViH6mMtavA+Kjic83qbpTDoWJS8=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.0623ed7", 
     "type": "console"
    }
   ], 
@@ -34482,6 +36881,51 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "WQIQYIRZVIsukl9OAnvg2rkpHj0=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/shim", 
+   "http://jabber.org/protocol/shim#SubID", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "storage:bookmarks", 
+   "storage:bookmarks+notify", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:gaming:0", 
+   "urn:xmpp:gaming:0+notify", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://slixmpp.com/ver/1.3.1"
+ }, 
  "WTgpKvXYbLVBAvQxY0VxKrHx4sk=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -34801,6 +37245,62 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "WsTCfYtGcE8V6+bZI4WUAz0YQ9A=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Linux"
+    ], 
+    "os_version": [
+     "4.0.7-2-ARCH"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "Wt4wkQFgaJhQ34IP1Njca2KoIEA=": {
   "features": [
@@ -35406,6 +37906,50 @@
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
  }, 
+ "XfSltmzxZLucrX6ypqP23m8Okjw=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "XgieKl3fk9vO+i3KMXH0aZ6EA4U=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -35942,6 +38486,63 @@
     ], 
     "software_version": [
      "0.11.1-svn-20111208 (Tcl/Tk 8.5.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "Y3D5aIH9mcHVICeHLe0SINAZVzI=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150529 (Tcl/Tk 8.6.2)"
     ]
    }
   }, 
@@ -36735,6 +39336,45 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "YxEtbZ9Wm5TuQzKAUZyVP3Jexp8=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/shim", 
+   "http://jabber.org/protocol/shim#SubID", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "storage:bookmarks", 
+   "storage:bookmarks+notify", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:gaming:0", 
+   "urn:xmpp:gaming:0+notify", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://slixmpp.com/ver/1.3.1"
+ }, 
  "YxfAwBoh/gk+wDM0dGf5xxCQfXE=": {
   "features": [
    "games:board", 
@@ -36781,6 +39421,63 @@
     ], 
     "software_version": [
      "0.11.1-svn-20120507 (Tcl/Tk 8.4.14)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "Yzc9W4UeAjDqd620MfxgqEC3QIY=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150518 (Tcl/Tk 8.6.2)"
     ]
    }
   }, 
@@ -37261,6 +39958,27 @@
   ], 
   "node": "http://spectrum.im/transport"
  }, 
+ "ZYOlBERjPRnHdAr7g4v24r/nSGQ=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.406b821", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "ZYg1YUhF4fOs4u9O7LB3LoYAZMY=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -37481,6 +40199,63 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "Zhwy3YNMHNLr/OH85WALPZvDeDs=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.9b797f3", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
+ "ZjrcmqIXW50kpbzvlGJLerbckPo=": {
+  "features": [
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/xdata-layout", 
+   "http://jabber.org/protocol/xdata-validate", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:privacy", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "sslc2s", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:http", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Xabber", 
+    "type": "handheld"
+   }
+  ], 
+  "node": "http://www.igniterealtime.org/projects/smack"
+ }, 
  "Zk3XGjXZo7F6etaujQeuYCMqIJU=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -37592,6 +40367,34 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "ZrET3li9NC9Ux/nwIgD8O1ByS0k=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.2", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "ZrkfvNA9jx2fiZ6GQbSQnC8XM/g=": {
   "features": [
@@ -38361,6 +41164,50 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "aMJ3SKTS8PGoTI10YFKRvQ4eVAc=": {
+  "features": [
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:delay", 
+   "urn:xmpp:extdisco:1", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:hash-function-text-names:md5", 
+   "urn:xmpp:hash-function-text-names:sha-1", 
+   "urn:xmpp:hash-function-text-names:sha-256", 
+   "urn:xmpp:hashes:1", 
+   "urn:xmpp:idle:1", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:json:tmp", 
+   "urn:xmpp:mam:tmp", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "type": "web"
+   }
+  ], 
+  "node": "https://stanza.io"
+ }, 
  "aO0i9MaUBkx3mE7HcD49yGarihY=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -38852,6 +41699,27 @@
    }
   ], 
   "node": "http://pidgin.im/"
+ }, 
+ "b4S8OgAZJjDznWP0aQG2uMy+ipk=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.e5c14b9", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "b5qHEVcrH/SWpKQ7Ax/9OLm9iP4=": {
   "features": [
@@ -39571,6 +42439,67 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "bc+mKavGSRpj6St9bcev6D3PRJ8=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.1 (jessie) 8.1 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150710 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "bel/1GoCmPnB01eNpywW2gef4EU=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -40208,6 +43137,27 @@
   ], 
   "node": "http://pidgin.im/"
  }, 
+ "c4SVr7bLUx2DraFzwQGrsLdMM+0=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.d5f79c7", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "c4s1Sy5wXDsZuwbml71dxmBdoXg=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -40529,6 +43479,27 @@
    }
   ], 
   "node": "http://gajim.org"
+ }, 
+ "cJHh23iPUwU1eMy2aN1WA1B4uoY=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.e117c03", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "cKD8lJ+P8HBweZBFDi5QxPJX3ZM=": {
   "features": [
@@ -41107,6 +44078,34 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "cx+9QB75U0b4L+jtAAgPHH49JYw=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.1", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "d0FvsXpJ9QtKNdYsJTjUT+/toYA=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -41677,6 +44676,27 @@
    {
     "category": "client", 
     "name": "Profanity 0.4.3dev.winbuffers.56457de", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
+ "dxQScEI5+IT4rhnFo9RfLJpuCUY=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.f3326bf", 
     "type": "console"
    }
   ], 
@@ -42504,6 +45524,27 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "efci8zF+EX1BzcNY+9KS99sbkoU=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.05be608", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "efy2g9zhYJIOSg+65Ugd5aGRPnc=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -42741,6 +45782,63 @@
     ], 
     "software_version": [
      "0.11.1-svn-20121020 (Tcl/Tk 8.6.0)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "epbZ8EAy5sYEppuVrRm6rcvZ9/8=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150601 (Tcl/Tk 8.6.2)"
     ]
    }
   }, 
@@ -43092,6 +46190,50 @@
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
  }, 
+ "f5J0eYNkDDieFvLTsuoGQ8gL/QE=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/shim", 
+   "http://jabber.org/protocol/shim#SubID", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:gaming:0", 
+   "urn:xmpp:gaming:0+notify", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "type": "bot"
+   }
+  ], 
+  "node": "http://slixmpp.com/ver/1.3.1"
+ }, 
  "f5Oqe6QUZOEuHFihlo7PVN8Y1XI=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -43247,6 +46389,62 @@
     ], 
     "software_version": [
      "1.1-svn-20140427 (Tcl/Tk 8.6.0)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "fPWh5be7xueRgFLjHlpQV/gXSQs=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Fedora release 22 (Twenty Two)"
+    ], 
+    "os_version": [
+     "4.1.3-201.fc22.x86_64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2 (Tcl/Tk 8.6.4)"
     ]
    }
   }, 
@@ -43550,6 +46748,127 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "fhZHYa6CwN4z/ZKITo8vGjMlWpQ=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150525 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "fipbeuzxZBgJAk05wqqQSAGm8FU=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:avatar:data", 
+   "urn:xmpp:avatar:metadata", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150525 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "fm7UVpSyCiOBxZYULaqSnk3O6E4=": {
   "features": [
@@ -44171,6 +47490,40 @@
   ], 
   "node": "http://www.igniterealtime.org/projects/smack"
  }, 
+ "gr2Lwb7s8GZPm8fRh/JgXjjudoA=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "jabber:iq:last", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 1.0.1-dev", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
+ }, 
  "gr5bQBq66EAmx2j8NmTsipgoXxw=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -44629,6 +47982,53 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "hRe6Ym0f7fdHvtDxDn3ZM0Q4svw=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/shim", 
+   "http://jabber.org/protocol/shim#SubID", 
+   "http://jabber.org/protocol/tune", 
+   "http://jabber.org/protocol/tune+notify", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "storage:bookmarks", 
+   "storage:bookmarks+notify", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:gaming:0", 
+   "urn:xmpp:gaming:0+notify", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Poezio", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://slixmpp.com/ver/1.3.1"
+ }, 
  "hSezizDB4yCqR8a8ezzOE/hsX4g=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -44790,6 +48190,34 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "hVRhxLDdxGTdeKgdmw5LuOoBNYo=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.4", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "hVYICSoKxcNZmsoMVLkCnbblEQw=": {
   "features": [
@@ -45093,6 +48521,27 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "htL2WedmalVyp0mwed1WcvgFLRE=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.051c6ed", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "huvZpU41A5q9VZxjrgFwXMLD2ec=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -45173,6 +48622,35 @@
    }
   ], 
   "node": "http://leechcraft.org/azoth"
+ }, 
+ "hxkEaXR3WSehtHoqrPaV2RlDLR8=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.6.0-beta", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "i0Ola5pllwppI72juXDx/lQqHHc=": {
   "features": [
@@ -46452,6 +49930,27 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "jiatcuHHLp3ekceIa5xA9MNSVL4=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.b98e119", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "jm7MnJi80D9ivYXYLBD/pcbbGFs=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -46571,6 +50070,32 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "jwuwLL8/H28p37utqh3YYQ8rh1s=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:last", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 1.0.0", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
  }, 
  "jxbos07IgguEfT8P+toetZzYwvo=": {
   "features": [
@@ -47012,6 +50537,32 @@
    }
   ], 
   "node": "http://jappix.org/"
+ }, 
+ "kQAXSTBxAcrvzscimLURevW+l14=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:last", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "mcabber 1.0.1-dev", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://mcabber.com/caps"
  }, 
  "kQwY1HlY3K+SlF/EZEs9sgMuDkM=": {
   "features": [
@@ -48407,6 +51958,62 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "lkDk787RMhqmW/CyP0tvmRGR9c4=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.1 (jessie) 8.1 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150808 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "llJOBjXV4BvdJ/OVDdDm2CUH5Vk=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -49022,6 +52629,27 @@
    }
   ], 
   "node": "http://telepathy.freedesktop.org/caps"
+ }, 
+ "mQ7ehnt62MT8OSrbY+mpeYgsW24=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.a798dc5", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "mRlieZtzkWxP+k6OsiUamEOFCTU=": {
   "features": [
@@ -49868,6 +53496,34 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "nPlRkMQsfUY9vFPefrUGLW3KcuQ=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.7", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "nZADxoQW/hJs9Gyyh9g4G6hw1fg=": {
   "features": [
    "google:mail:notify", 
@@ -50626,6 +54282,35 @@
   ], 
   "node": "http://gajim.org"
  }, 
+ "otQDD9M/qFBZR2Orr7Pc/Xi6SGs=": {
+  "features": [
+   "eu.siacs.conversations.axolotl.devicelist+notify", 
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.5.2", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
+ }, 
  "oxR6PneSOa2DOZCqGLPf/NarcsQ=": {
   "features": [
    "http://jabber.org/protocol/caps", 
@@ -51069,6 +54754,27 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "pfphZfXtt+eGpM6T6FnA0ZK8Kfo=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.84a8da7", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "phTSk6XRNGRBGUlsB1BbTOtGqUg=": {
   "features": [
@@ -51897,6 +55603,62 @@
    }
   ], 
   "node": "http://jappix.org/"
+ }, 
+ "qS10DyzlafUSfKyY3jccOc1umtg=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux 8.0 (jessie) 8.0 jessie"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150518 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "qT9HnS+0G0FS0+ehfT6KSAF1fsI=": {
   "features": [
@@ -52876,6 +56638,27 @@
   ], 
   "node": "http://leechcraft.org/azoth"
  }, 
+ "rJm41Ui5isLyowqcuS7Vv8Ek/SE=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.decd506", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
  "rO0sNudhyFxUR+tS76F9CQJG/iY=": {
   "features": [
    "http://google.com/xmpp/protocol/share/v1", 
@@ -53180,6 +56963,122 @@
    }
   ], 
   "node": "http://sleekxmpp.com/ver/1.2.0"
+ }, 
+ "rlpLvwavvqCuTtTrn/5o2b42ZZI=": {
+  "features": [
+   "games:board", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux testing (stretch) testing stretch"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150529 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "rqM8u405W0ir+8rAsY1NnWO3dnU=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Darwin"
+    ], 
+    "os_version": [
+     "14.4.0"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150618 (Tcl/Tk 8.6.4 (starpack rev.1))"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "rqbSHefkqTeQuZc628AtnOtMqwc=": {
   "features": [
@@ -53587,6 +57486,66 @@
   ], 
   "node": "http://bombusmod.net.ru/caps"
  }, 
+ "sWdvhuinFDqNk12SHF58WvH3/KA=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150710 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "sWrxWNOJtKxv1qBPFJwN9pJYCRo=": {
   "features": [
    "http://jabber.org/protocol/bytestreams", 
@@ -53651,6 +57610,32 @@
    }
   ], 
   "node": "http://www.profanity.im"
+ }, 
+ "sn+Go7RLMS0uBD5cjDe3npyZsUY=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/rsm", 
+   "http://jabber.org/protocol/xhtml-im", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Hg10 1.4.0.176", 
+    "type": "pc"
+   }
+  ], 
+  "node": "https://github.com/qxmpp-project/qxmpp"
  }, 
  "sx+6BUnJtRgUBwpXIAqVZD4mbJ4=": {
   "features": [
@@ -53877,6 +57862,66 @@
     ], 
     "software_version": [
      "1.1-svn-20141227 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "t70d2pAYuRsD9dKFv1wK9V4LB0E=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150601 (Tcl/Tk 8.6.4)"
     ]
    }
   }, 
@@ -55756,6 +59801,63 @@
   ], 
   "node": "http://www.profanity.im"
  }, 
+ "ufWvt3lIgdZbMS0SQyhlKLlW1M8=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150520 (Tcl/Tk 8.6.2)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "uhkQtHde1ffesCzAvh/YUfiG38s=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -55896,6 +59998,62 @@
    }
   ], 
   "node": "http://mcabber.com/caps"
+ }, 
+ "urqTm5rxOBW8j94pfHlFO9+v+2w=": {
+  "features": [
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "8.1"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-20150510 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
  }, 
  "urxLLic/XYVCBytCH7ZfQXZxoMY=": {
   "features": [
@@ -56490,6 +60648,66 @@
   ], 
   "node": "http://mcabber.com/caps"
  }, 
+ "vJiIWbK2w4G+Jj1p0FbX6N8vgXA=": {
+  "features": [
+   "games:board", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Debian GNU/Linux testing (stretch) testing stretch"
+    ], 
+    "os_version": [
+     "3.16.0-4-amd64"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150618 (Tcl/Tk 8.6.4)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
  "vLI9flhgt7tPI/9ZBWRKJ+2SYeQ=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -56646,6 +60864,27 @@
    }
   ], 
   "node": "http://jitsi.org"
+ }, 
+ "vO8hMOgCRjYYzz7MSZYKEQYPiNE=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.304e08a", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "vSEK6V92SWdUHbyingBsW1tbXaw=": {
   "features": [
@@ -57076,6 +61315,66 @@
     ], 
     "software_version": [
      "0.11.1-svn-20111216 (Tcl/Tk 8.5.8)"
+    ]
+   }
+  }, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Tkabber", 
+    "type": "pc"
+   }
+  ], 
+  "node": "http://tkabber.jabber.ru/"
+ }, 
+ "vvFNx/5DnGhSKHQYpqlOprsYoSc=": {
+  "features": [
+   "games:board", 
+   "games:cards", 
+   "http://jabber.org/protocol/activity", 
+   "http://jabber.org/protocol/activity+notify", 
+   "http://jabber.org/protocol/bytestreams", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/ibb", 
+   "http://jabber.org/protocol/iqibb", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/rosterx", 
+   "http://jabber.org/protocol/si", 
+   "http://jabber.org/protocol/si/profile/file-transfer", 
+   "http://jabber.org/protocol/tune", 
+   "jabber:iq:avatar", 
+   "jabber:iq:browse", 
+   "jabber:iq:last", 
+   "jabber:iq:oob", 
+   "jabber:iq:privacy", 
+   "jabber:iq:roster", 
+   "jabber:iq:time", 
+   "jabber:iq:version", 
+   "jabber:x:data", 
+   "jabber:x:event", 
+   "jabber:x:oob", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:time"
+  ], 
+  "forms": {
+   "urn:xmpp:dataforms:softwareinfo": {
+    "os": [
+     "Windows"
+    ], 
+    "os_version": [
+     "7"
+    ], 
+    "software": [
+     "Tkabber"
+    ], 
+    "software_version": [
+     "1.1.2-fossil-20150617 (Tcl/Tk 8.6.4)"
     ]
    }
   }, 
@@ -57556,6 +61855,27 @@
    {
     "category": "client", 
     "name": "Profanity 0.4.5dev.master.67755ca", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
+ }, 
+ "wUwxzIFFA8WpdmPjcwnnCxHT36k=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.fdb50f7", 
     "type": "console"
    }
   ], 
@@ -59380,6 +63700,82 @@
   ], 
   "node": "http://tkabber.jabber.ru/"
  }, 
+ "y+Yxy94rjajoJiJ70tn8Jf/leOk=": {
+  "features": [
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/commands", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/geoloc", 
+   "http://jabber.org/protocol/geoloc+notify", 
+   "http://jabber.org/protocol/mood", 
+   "http://jabber.org/protocol/mood+notify", 
+   "http://jabber.org/protocol/muc", 
+   "http://jabber.org/protocol/nick", 
+   "http://jabber.org/protocol/nick+notify", 
+   "http://jabber.org/protocol/shim", 
+   "http://jabber.org/protocol/xdata-layout", 
+   "http://jabber.org/protocol/xdata-validate", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "jabber:x:data", 
+   "jabber:x:oob", 
+   "jid\\20escaping", 
+   "urn:ietf:rfc:3264", 
+   "urn:ietf:rfc:5576", 
+   "urn:ietf:rfc:5888", 
+   "urn:xmpp:attention:0", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:blocking", 
+   "urn:xmpp:bob", 
+   "urn:xmpp:carbons:2", 
+   "urn:xmpp:delay", 
+   "urn:xmpp:extdisco:1", 
+   "urn:xmpp:forward:0", 
+   "urn:xmpp:hash-function-text-names:md5", 
+   "urn:xmpp:hash-function-text-names:sha-1", 
+   "urn:xmpp:hash-function-text-names:sha-224", 
+   "urn:xmpp:hash-function-text-names:sha-256", 
+   "urn:xmpp:hash-function-text-names:sha-384", 
+   "urn:xmpp:hash-function-text-names:sha-512", 
+   "urn:xmpp:hashes:1", 
+   "urn:xmpp:hats:0", 
+   "urn:xmpp:idle:1", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:dtls:0", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:apps:grouping:0", 
+   "urn:xmpp:jingle:apps:rtp:1", 
+   "urn:xmpp:jingle:apps:rtp:audio", 
+   "urn:xmpp:jingle:apps:rtp:rtcb-fb:0", 
+   "urn:xmpp:jingle:apps:rtp:rtp-hdrext:0", 
+   "urn:xmpp:jingle:apps:rtp:ssma:0", 
+   "urn:xmpp:jingle:apps:rtp:video", 
+   "urn:xmpp:jingle:transports.dtls-sctp:1", 
+   "urn:xmpp:jingle:transports:ice-udp:1", 
+   "urn:xmpp:json:0", 
+   "urn:xmpp:mam:0", 
+   "urn:xmpp:media-element", 
+   "urn:xmpp:message-correct:0", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:psa", 
+   "urn:xmpp:reach:0", 
+   "urn:xmpp:reach:0+notify", 
+   "urn:xmpp:receipts", 
+   "urn:xmpp:rtt:0", 
+   "urn:xmpp:time", 
+   "vcard-temp"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "type": "web"
+   }
+  ], 
+  "node": "https://stanza.io"
+ }, 
  "y2kXzWRoRLJa/fpaVGWvF+iQL2w=": {
   "features": [
    "http://jabber.org/protocol/activity", 
@@ -59437,6 +63833,34 @@
    }
   ], 
   "node": "http://tkabber.jabber.ru/"
+ }, 
+ "yD3BNW/5/woSZEBnw9OhS4ac3WA=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "jabber:x:conference", 
+   "urn:xmpp:avatar:metadata+notify", 
+   "urn:xmpp:chat-markers:0", 
+   "urn:xmpp:jingle:1", 
+   "urn:xmpp:jingle:apps:file-transfer:3", 
+   "urn:xmpp:jingle:transports:ibb:1", 
+   "urn:xmpp:jingle:transports:s5b:1", 
+   "urn:xmpp:ping", 
+   "urn:xmpp:receipts"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Conversations 1.4.5", 
+    "type": "phone"
+   }
+  ], 
+  "node": "http://conversations.im"
  }, 
  "yGwMTYcY7t+Kw/aFi5or2nh5siI=": {
   "features": [
@@ -59763,6 +64187,27 @@
    }
   ], 
   "node": "http://gajim.org"
+ }, 
+ "yYuehiT+1eVnBD/Q85p4Aonx3hg=": {
+  "features": [
+   "http://jabber.org/protocol/caps", 
+   "http://jabber.org/protocol/chatstates", 
+   "http://jabber.org/protocol/disco#info", 
+   "http://jabber.org/protocol/disco#items", 
+   "http://jabber.org/protocol/muc", 
+   "jabber:iq:version", 
+   "urn:xmpp:ping"
+  ], 
+  "forms": {}, 
+  "hash": "sha-1", 
+  "identities": [
+   {
+    "category": "client", 
+    "name": "Profanity 0.4.7dev.master.fed55b5", 
+    "type": "console"
+   }
+  ], 
+  "node": "http://www.profanity.im"
  }, 
  "yZFAamn0mtSxMIt640v2Gw==": {
   "features": [
