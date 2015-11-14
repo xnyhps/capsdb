@@ -24,3 +24,13 @@ Sadly I have no idea. These were gathered over many years, so I'm sure some are 
 ### Can I send pull requests with new caps?
 
 Sure!
+
+### License
+
+capsdb - A collection of XMPP caps with hashes
+
+Written in 2015 by Thijs Alkemade <me@thijsalkema.de>
+
+To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
